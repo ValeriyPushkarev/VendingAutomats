@@ -1,0 +1,41 @@
+﻿** Предупреждения
+     Ссылка на объект [Main] отличается от определения объекта [main] только регистром символов.
+     Ссылка на объект [Main].[Clients] отличается от определения объекта [main].[Clients] только регистром символов.
+     Ссылка на объект [Main].[Clients].[Id] отличается от определения объекта [main].[Clients].[Id] только регистром
+       символов.
+     Ссылка на объект [Main].[Clients].[Name] отличается от определения объекта [main].[Clients].[Name] только регистром
+       символов.
+     Ссылка на объект [Main] отличается от определения объекта [main] только регистром символов.
+     Ссылка на объект [main].[Clients].[id] отличается от определения объекта [main].[Clients].[Id] только регистром
+       символов.
+
+** Выделение
+     Таблицы, которые будут перестроены
+       [modules].[LevelModules]
+     Кластеризованные индексы, которые будут удалены
+       Нет
+     Кластеризованные индексы, которые будут созданы
+       Нет
+     Возможные проблемы, связанные с данными
+       Нет
+
+** Действия пользователя
+     Удалить
+       на [modules].[LevelModules].[FirstAlertEnabled] (Ограничение по умолчанию)
+       на [modules].[LevelModules].[SecondAlertEnabled] (Ограничение по умолчанию)
+     Восстановление таблицы
+       [modules].[LevelModules] (Таблица)
+
+** Корректирующие действия
+     Удалить
+       [modules].[FK_LevelModules_ClientId] (Внешний ключ)
+     Создать
+       [modules].[FK_LevelModules_ClientId] (Внешний ключ)
+       [modules].[LevelModules].[ClientId].[MS_Description] (Расширенное свойство)
+       [modules].[LevelModules].[ModuleName].[MS_Description] (Расширенное свойство)
+       [modules].[LevelModules].[FirstAlertEnabled].[MS_Description] (Расширенное свойство)
+       [modules].[LevelModules].[FirstAlertLevel].[MS_Description] (Расширенное свойство)
+       [modules].[LevelModules].[SecondAlertEnabled].[MS_Description] (Расширенное свойство)
+       [modules].[LevelModules].[SecondAlertLevel].[MS_Description] (Расширенное свойство)
+       [modules].[LevelModules].[MaxLevel].[MS_Description] (Расширенное свойство)
+       [modules].[LevelModules].[MinLevel].[MS_Description] (Расширенное свойство)

@@ -1,0 +1,25 @@
+﻿<#@ template language="C#v3.5"         #>
+<#@ output extension=".generated.cs"   #>
+<#@ include file="BLToolkit.ttinclude" #>
+<#@ include file="MSSQL.ttinclude"     #>
+<#
+    ConnectionString = "Server=РРР-ПК\\SQLEX;Database=Database;Integrated Security=SSPI";
+    Namespace        = "App_Data.Data.Context";
+    DataContextName  = "DataManager";
+    BaseDataContextClass = "DbManager";
+
+    LoadMetadata();    // Change the BinaryDataID field name of the BinaryData table to "ID".
+
+    var toRemove = new List<string>();
+    foreach (var it in Tables)
+    {
+        if (it.Value.Owner == "main" || 
+            it.Value.Owner == "modules" 
+           )
+            continue;
+        toRemove.Add(it.Key);
+    }
+    toRemove.ForEach(t => Tables.Remove(t));
+
+    GenerateModel();
+#>

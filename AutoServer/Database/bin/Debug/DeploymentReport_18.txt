@@ -1,0 +1,25 @@
+﻿** Выделение
+     Таблицы, которые будут перестроены
+       [Main].[ClientProperties]
+     Кластеризованные индексы, которые будут удалены
+       Нет
+     Кластеризованные индексы, которые будут созданы
+       Нет
+     Возможные проблемы, связанные с данными
+       Нет
+
+** Действия пользователя
+     Восстановление таблицы
+       [Main].[ClientProperties] (Таблица)
+
+** Корректирующие действия
+     Удалить
+       [Main].[FK_ClientProperties_ClientId] (Внешний ключ)
+     Создать
+       [Main].[FK_ClientProperties_ClientId] (Внешний ключ)
+       [Main].[ClientProperties].[ClientId].[MS_Description] (Расширенное свойство)
+       [Main].[ClientProperties].[Desc].[MS_Description] (Расширенное свойство)
+       [Main].[ClientProperties].[Position].[MS_Description] (Расширенное свойство)
+       [Main].[ClientProperties].[Address].[MS_Description] (Расширенное свойство)
+     Обновить
+       [Main].[UpdateClientProperties] (процедуре)

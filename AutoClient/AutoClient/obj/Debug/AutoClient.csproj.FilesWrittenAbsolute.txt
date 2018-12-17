@@ -1,0 +1,8 @@
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoClient\AutoClient\obj\Debug\.NETFramework,Version=v4.5.AssemblyAttribute.cs
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoClient\AutoClient\bin\Debug\AutoClient.exe.config
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoClient\AutoClient\bin\Debug\AutoClient.exe.mdb
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoClient\AutoClient\bin\Debug\AutoClient.exe
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoClient\AutoClient\obj\Debug\AutoClient.exe
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoClient\AutoClient\obj\Debug\AutoClient.exe.mdb
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoClient\AutoClient\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoClient\AutoClient\bin\Debug\Microsoft.Practices.Unity.Configuration.dll

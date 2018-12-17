@@ -1,0 +1,35 @@
+﻿@Styles.Render("~/Content/themes/base/css")
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/jqueryui")
+@Scripts.Render("~/bundles/clockpicker")
+@Scripts.Render("~/bundles/Chart")
+
+@Scripts.Render("~/bundles/modules/level")
+@using (Html.BeginForm("Automates", "Automates"))
+{
+    @Html.Raw("<div style=\"float:left\">")
+    @Html.RadioButton("sorting", "sortByMax", false)
+    @Html.Raw("По максимальному уровню <br />")
+    
+    @Html.RadioButton("sorting", "sortByMin", true)
+    @Html.Raw("По минимальному уровню <br />")
+
+    @Html.RadioButton("sorting", "sortByPing", false)
+    @Html.Raw("По последнему отклику <br />")
+    @Html.Raw("</div>")
+    @Html.Raw("<div style=\"float:left\">")
+    @Html.RadioButton("direction", "desc", true)
+    @Html.Raw("По убыванию<br />")
+    @Html.RadioButton("direction", "asc", false)
+    @Html.Raw("По возрастанию<br />")
+    @Html.Raw("</div><br /><br /><br />")
+
+    @Html.Raw("<div>")
+    <input type = "submit" value = "Обновить" />
+    @Html.Raw("</div>")
+} 
+@foreach (var automate in ViewBag.automates)
+{
+    System.Web.Mvc.Html.ChildActionExtensions.RenderAction(Html, "Automate", "Automates", automate);
+}
+     

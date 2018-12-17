@@ -1,0 +1,68 @@
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.IO;
+using Mono.Unix.Native;
+
+namespace proj4
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            var pin = "10";
+            var direction = "in";
+            var edgeEvent = "both";
+
+            writeTo("/sys/class/gpio/export", pin);
+
+            var directory = Directory.GetDirectories("/sys/class/gpio/", "gpio" + pin + "*").FirstOrDefault<string>();
+
+            writeTo(directory + "/direction", direction);
+
+            writeTo(directory + "/edge", edgeEvent);
+
+
+            interrupt(directory, pin);
+        }
+
+        static unsafe void interrupt(string directory, string pin)
+        {
+            var buf = new byte[10];
+            fixed (byte* pb = buf)
+            {
+                var file = Syscall.open(directory + "/value", OpenFlags.O_RDWR);
+                var pfs = new Pollfd();
+                pfs.fd = (int)file;
+                pfs.events = PollEvents.POLLPRI | PollEvents.POLLERR;
+                pfs.revents = 0;
+
+                var res = (int)Syscall.pread(file, pb, (ulong) 1, 0);
+
+                var r = Syscall.poll(new[] { pfs }, -1 );
+
+                var res2 = (int)Syscall.pread(file, pb, (ulong) 1,0);
+
+                var r2 = Syscall.poll(new[] { pfs}, -1 );
+                Console.WriteLine(file);
+                Console.WriteLine(r+"   "+r2);
+                Console.WriteLine(res+"  "+res2);
+            }
+            Console.WriteLine(ASCIIEncoding.ASCII.GetString(buf));
+        }
+
+        static void writeTo(string path, string value)
+        {
+            File.WriteAllText(path, value);
+        }
+
+        static byte[] convert(string pin)
+        {
+            return ASCIIEncoding.ASCII.GetBytes(pin);
+        }
+
+    }
+}

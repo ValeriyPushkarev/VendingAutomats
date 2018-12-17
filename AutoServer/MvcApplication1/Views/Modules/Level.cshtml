@@ -1,0 +1,76 @@
+﻿@{
+    Layout = "";
+   
+}
+<div style="float:left;width:70px">
+
+    <div style="writing-mode:vertical-lr;align">@(ViewBag.Name)</div>
+
+    <div style="float:left">
+        <div style="width:40px;height:120px;background-color:blue;float:left" onclick="
+    {
+        var extendedBlock = $('.tabs[clientId=@(ViewBag.ClientId)][moduleName=@(ViewBag.Name)]');
+
+        extendedBlock.dialog('open');
+       
+    }">
+            <div style="width:40px;height:@(ViewBag.Level)px;background-color:gray"></div>
+        </div>
+        <div class="tabs" clientId="@(ViewBag.ClientId)" moduleName="@(ViewBag.Name)" style="width: 500px; height: 440px; float:left" title="@(ViewBag.Name)">
+            <ul>
+                <li><a href="#ViewTab@(ViewBag.ClientId)@(ViewBag.Name)">Просмотр</a></li>
+                <li><a href="#SettingsTab@(ViewBag.ClientId)@(ViewBag.Name)">Настройки</a></li>
+            </ul>
+            <div id="ViewTab@(ViewBag.ClientId)@(ViewBag.Name)">
+                <div style="width: 450px; height: 320px">
+                    <div style="width: 310px; height: 360px; float: left">
+                        <canvas id="myChart@(ViewBag.ClientId)@(ViewBag.Name)" width="300" height="350"></canvas>
+                    </div>
+                    <div style="float: left; width: 110px">
+                        C
+                        <div style="float: left">
+                            <input id="DateFrom@(ViewBag.Name)@(ViewBag.ClientId)" moduleName="@(ViewBag.Name)" clientId="@(ViewBag.ClientId)" type="text" Style="width: 100px" class="input-group datepicker" value="@DateTime.Now.AddDays(-1).ToString("dd.MM.yyyy")" onchange="updateDateTime(this)" />
+                        </div>
+                        <div style="float: left" class="input-group clockpicker" data-placement="left" data-align="top" data-autoclose="true">
+                            <input id="TimeFrom" moduleName="@(ViewBag.Name)" clientId="@(ViewBag.ClientId)" Style="width: 100px" class="form-control" value="@DateTime.Now.ToString("HH:mm")" onchange="updateDateTime(this)" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-time"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div style="float: left; width: 110px">
+                        По
+                        <div style="float: left">
+                            <input id="DateTo@(ViewBag.Name)@(ViewBag.ClientId)" moduleName="@(ViewBag.Name)" clientId="@(ViewBag.ClientId)" type="text" Style="width: 100px" class="input-group datepicker" value="@DateTime.Now.ToString("dd.MM.yyyy")" onchange="updateDateTime(this)" />
+                        </div>
+                        <div style="float: left" class="input-group clockpicker" data-placement="left" data-align="top" data-autoclose="true">
+                            <input id="TimeTo" moduleName="@(ViewBag.Name)" clientId="@(ViewBag.ClientId)" Style="width: 100px" class="form-control" value="@DateTime.Now.ToString("HH:mm")" onchange="updateDateTime(this)" />
+                            <span class="input-group-addon">
+                                <span class="glyphicon glyphicon-time"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="SettingsTab@(ViewBag.ClientId)@(ViewBag.Name)">
+                <div style="width: 450px; height: 320px">
+                    <div>
+                        Минимальный уровень:
+                    </div>
+                    <div>
+                        <input id="MinLevel" moduleName="@(ViewBag.Name)" clientId="@(ViewBag.ClientId)" Style="width: 100px" class="form-control" value="@(ViewBag.MinLevel)" />
+                    </div>
+                    <div>
+                        Максимальный уровень:
+                    </div>
+                    <div>
+                        <input id="MaxLevel" moduleName="@(ViewBag.Name)" clientId="@(ViewBag.ClientId)" Style="width: 100px" class="form-control" value="@(ViewBag.MaxLevel)" />
+                    </div>
+                    <div>
+                        <input id="Button1" moduleName="@(ViewBag.Name)" clientId="@(ViewBag.ClientId)" type="button" value="Сохранить" onclick="updateLevels(this)" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

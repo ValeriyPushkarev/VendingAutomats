@@ -1,0 +1,122 @@
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\obj\Debug\WebApplication1.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\obj\Debug\WebApplication1.pdb
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\WebApplication1.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\WebApplication1.pdb
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Antlr3.Runtime.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\BLToolkit.4.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.Core.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\EntityFramework.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.Practices.Unity.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\System.Web.Optimization.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\System.Web.Providers.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\WebGrease.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\BLToolkit.4.pdb
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.Practices.Unity.xml
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\EntityFramework.xml
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.Core.xml
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\ru\EntityFramework.resources.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\ru\System.Web.Providers.resources.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\ru\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\ru\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\WebApplication1\obj\Debug\WebSite.csprojResolveAssemblyReference.cache
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\WebApplication1.dll.config
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\WebApplication1.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\WebApplication1.pdb
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Antlr3.Runtime.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\AspNet.ScriptManager.jQuery.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.AspNet.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.Core.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\EntityFramework.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\System.Web.Optimization.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\System.Web.Providers.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\WebGrease.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\BLToolkit.4.pdb
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.Practices.Unity.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\EntityFramework.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.Core.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\DotNetOpenAuth.AspNet.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\ru\EntityFramework.resources.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\ru\System.Web.Optimization.resources.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\ru\System.Web.Providers.resources.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\ru\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\bin\ru\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\obj\Debug\WebSite.csprojResolveAssemblyReference.cache
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\obj\Debug\WebApplication1.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\WebApplication1\obj\Debug\WebApplication1.pdb
+D:\Auto\AutoServer\WebApplication1\bin\WebApplication1.dll.config
+D:\Auto\AutoServer\WebApplication1\bin\WebApplication1.dll
+D:\Auto\AutoServer\WebApplication1\bin\WebApplication1.pdb
+D:\Auto\AutoServer\WebApplication1\bin\Antlr3.Runtime.dll
+D:\Auto\AutoServer\WebApplication1\bin\AspNet.ScriptManager.jQuery.dll
+D:\Auto\AutoServer\WebApplication1\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.AspNet.dll
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.Core.dll
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.dll
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.dll
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+D:\Auto\AutoServer\WebApplication1\bin\EntityFramework.dll
+D:\Auto\AutoServer\WebApplication1\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Auto\AutoServer\WebApplication1\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+D:\Auto\AutoServer\WebApplication1\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Auto\AutoServer\WebApplication1\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Auto\AutoServer\WebApplication1\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Auto\AutoServer\WebApplication1\bin\Microsoft.Web.Infrastructure.dll
+D:\Auto\AutoServer\WebApplication1\bin\System.Web.Optimization.dll
+D:\Auto\AutoServer\WebApplication1\bin\System.Web.Providers.dll
+D:\Auto\AutoServer\WebApplication1\bin\WebGrease.dll
+D:\Auto\AutoServer\WebApplication1\bin\EntityFramework.xml
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.Core.xml
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.xml
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.xml
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+D:\Auto\AutoServer\WebApplication1\bin\DotNetOpenAuth.AspNet.xml
+D:\Auto\AutoServer\WebApplication1\bin\Microsoft.AspNet.Membership.OpenAuth.xml
+D:\Auto\AutoServer\WebApplication1\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Auto\AutoServer\WebApplication1\bin\ru\EntityFramework.resources.dll
+D:\Auto\AutoServer\WebApplication1\bin\ru\System.Web.Optimization.resources.dll
+D:\Auto\AutoServer\WebApplication1\bin\ru\System.Web.Providers.resources.dll
+D:\Auto\AutoServer\WebApplication1\bin\ru\Microsoft.AspNet.Membership.OpenAuth.resources.dll
+D:\Auto\AutoServer\WebApplication1\bin\ru\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Auto\AutoServer\WebApplication1\obj\Debug\WebSite.csprojResolveAssemblyReference.cache
+D:\Auto\AutoServer\WebApplication1\obj\Debug\WebApplication1.dll
+D:\Auto\AutoServer\WebApplication1\obj\Debug\WebApplication1.pdb

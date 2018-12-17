@@ -1,0 +1,19 @@
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\Database\bin\Debug\Database.dacpac
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\Database\obj\Debug\Database.dll
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\Database\obj\Debug\Database.pdb
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\Database\bin\Debug\Database.dll
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\Database\bin\Debug\Database.pdb
+C:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\Database\bin\Debug\Database_Create.sql
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\Database\obj\Debug\Model.xml
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\Database\obj\Debug\refactor.xml
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\Database\obj\Debug\postdeploy.sql
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\Database\obj\Debug\predeploy.sql
+D:\Auto\AutoServer\Database\bin\Debug\Database.dacpac
+D:\Auto\AutoServer\Database\bin\Debug\Database.dll
+D:\Auto\AutoServer\Database\bin\Debug\Database.pdb
+D:\Auto\AutoServer\Database\obj\Debug\Model.xml
+D:\Auto\AutoServer\Database\obj\Debug\refactor.xml
+D:\Auto\AutoServer\Database\obj\Debug\postdeploy.sql
+D:\Auto\AutoServer\Database\obj\Debug\predeploy.sql
+D:\Auto\AutoServer\Database\obj\Debug\Database.dll
+D:\Auto\AutoServer\Database\obj\Debug\Database.pdb

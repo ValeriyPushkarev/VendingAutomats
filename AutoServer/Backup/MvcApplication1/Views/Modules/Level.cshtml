@@ -1,0 +1,153 @@
+﻿<link rel="stylesheet" href="~/Scripts/clockpicker/jquery-clockpicker.css">
+<link rel="stylesheet" href="~/Scripts/jquery/jquery-ui.css">
+ 
+<div id="tabs" style="width: 500px; height: 440px">
+    <ul>
+        <li><a href="#ViewTab">Просмотр</a></li>
+        <li><a href="#SettingsTab">Настройки</a></li>
+    </ul>
+    <div id="ViewTab">
+        <div style="width: 450px;">@(ViewBag.Name)</div>
+        <div style="width: 450px; height: 320px">
+            <div style="width: 310px; height: 360px; float: left">
+                <canvas id="myChart@(ViewBag.ClientId)@(ViewBag.Name)" width="300" height="350"></canvas>
+            </div>
+            <div style="float: left; width: 110px">
+                C
+    <div style="float: left">
+        <input id="DateFrom@(ViewBag.ClientId)@(ViewBag.Name)" type="text" Style="width: 100px" class="input-group datepicker" value="@DateTime.Now.AddDays(-1).ToString("dd.MM.yyyy")" onchange="updateDateTime@(ViewBag.ClientId)@(ViewBag.Name)()"/>
+    </div>
+                <div style="float: left" class="input-group clockpicker" data-placement="left" data-align="top" data-autoclose="true">
+                    <input id="TimeFrom@(ViewBag.ClientId)@(ViewBag.Name)" Style="width: 100px" class="form-control" value="@DateTime.Now.ToString("HH:mm")" onchange="updateDateTime@(ViewBag.ClientId)@(ViewBag.Name)()"/>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </span>
+                </div>
+            </div>
+            <div style="float: left; width: 110px">
+                По
+    <div style="float: left">
+        <input id="DateTo@(ViewBag.ClientId)@(ViewBag.Name)" type="text" Style="width: 100px" class="input-group datepicker" value="@DateTime.Now.ToString("dd.MM.yyyy")" onchange="updateDateTime@(ViewBag.ClientId)@(ViewBag.Name)()"/>
+    </div>
+                <div style="float: left" class="input-group clockpicker" data-placement="left" data-align="top" data-autoclose="true">
+                    <input id="TimeTo@(ViewBag.ClientId)@(ViewBag.Name)" Style="width: 100px" class="form-control" value="@DateTime.Now.ToString("HH:mm")" onchange="updateDateTime@(ViewBag.ClientId)@(ViewBag.Name)()"/>
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-time"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="SettingsTab">
+        <div style="width: 450px;">@(ViewBag.Name)</div>
+        <div style="width: 450px; height: 320px">
+            <div>
+                Минимальный уровень:
+                </div>
+            <div>
+            <input id="MinLevel@(ViewBag.ClientId)@(ViewBag.Name)" Style="width: 100px" class="form-control" value="@(ViewBag.MinLevel)"/>
+            </div>
+            <div>
+                Максимальный уровень:
+                </div>
+            <div>
+            <input id="MaxLevel@(ViewBag.ClientId)@(ViewBag.Name)" Style="width: 100px" class="form-control" value="@(ViewBag.MaxLevel)"/>
+            </div>
+            <div>
+                <input id="Button1" type="button" value="Сохранить" onclick="updateLevels@(ViewBag.ClientId)@(ViewBag.Name)()" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="~/Scripts/Charts/Chart.js"></script>
+<script>
+    updateDateTime@(ViewBag.ClientId)@(ViewBag.Name)(); 
+
+    function updateLevels@(ViewBag.ClientId)@(ViewBag.Name)()
+    {
+        var obj = {};
+
+        var MinLevel = $("#MinLevel@(ViewBag.ClientId)@(ViewBag.Name)").val();
+        var MaxLevel = $("#MaxLevel@(ViewBag.ClientId)@(ViewBag.Name)").val();
+
+        obj.MinLevel = MinLevel;
+        obj.MaxLevel = MaxLevel;
+
+        obj.ClientId = '@(ViewBag.ClientId)';
+        obj.ModuleName = '@(ViewBag.Name)';
+
+        jQuery.post('/Modules/Params', obj);
+    }
+
+    function updateDateTime@(ViewBag.ClientId)@(ViewBag.Name)()
+    {
+        var obj = {};
+
+        var dateFrom = $("#DateFrom@(ViewBag.ClientId)@(ViewBag.Name)").val();
+        var dateTo = $("#DateTo@(ViewBag.ClientId)@(ViewBag.Name)").val();
+
+        var timeFrom = $("#TimeFrom@(ViewBag.ClientId)@(ViewBag.Name)").val();
+        var timeTo = $("#TimeTo@(ViewBag.ClientId)@(ViewBag.Name)").val();
+
+        obj.ClientId = '@(ViewBag.ClientId)';
+        obj.ModuleName = '@(ViewBag.Name)';
+
+        obj.DateFrom = dateFrom;
+        obj.DateTo = dateTo;
+        obj.TimeFrom = timeFrom;
+        obj.TimeTo = timeTo;
+
+        jQuery.post('/Modules/Levels', obj,
+            function(data)
+            {
+                var z = data;
+
+                var points =[]
+                var labels =[]
+
+                z.forEach(function(item, i, arr) 
+                {
+                    points[i] = item.Value;
+                    labels[i] = item.Date;
+                    
+                });
+
+                var datad = {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: "My First dataset",
+                            fillColor: "rgba(0,0,220,0.2)",
+                            strokeColor: "rgba(0,0,220,1)",
+                            pointColor: "rgba(0,0,220,1)",
+                            pointStrokeColor: "#fff",
+                            pointHighlightFill: "#fff",
+                            pointHighlightStroke: "rgba(220,220,220,1)",
+                            data: points
+                        }],
+                    
+                };
+            // Get the context of the canvas element we want to select
+                var ctx = document.getElementById("myChart@(ViewBag.ClientId)@(ViewBag.Name)").getContext("2d");
+                if (window.Chart@(ViewBag.ClientId)@(ViewBag.Name))
+                    window.Chart@(ViewBag.ClientId)@(ViewBag.Name).destroy();
+
+                window.Chart@(ViewBag.ClientId)@(ViewBag.Name) = new Chart(ctx).Line(datad, {
+                    bezierCurve: false,
+                    tooltipTemplate: "<%if (label){%><%}%><%= value %>",
+                    pointHitDetectionRadius: 5,
+                });
+            })
+        .fail(function (jqxhr, textStatus, error) {
+            var err = textStatus + ", " + error;
+            alert("Request Failed: " + err);
+        });
+    }
+  
+
+</script>

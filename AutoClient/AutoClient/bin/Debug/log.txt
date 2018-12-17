@@ -1,0 +1,17 @@
+<Client>
+  <Desc>Пришел некорректный пакет</Desc>
+  <Message>detyjrtj
+</Message>
+</Client><Client>
+  <Desc>Пришел некорректный пакет</Desc>
+  <Message>
+</Message>
+</Client><Client>
+  <Desc>Пришел некорректный пакет</Desc>
+  <Message>rj7
+</Message>
+</Client><Client>
+  <Desc>Пришел некорректный пакет</Desc>
+  <Message>h
+</Message>
+</Client>

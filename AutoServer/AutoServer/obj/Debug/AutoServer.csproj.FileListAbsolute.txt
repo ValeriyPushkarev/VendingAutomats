@@ -1,0 +1,42 @@
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\AutoServer.exe.config
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\AutoServer.exe
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\AutoServer.pdb
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\obj\Debug\AutoServer.exe
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\obj\Debug\AutoServer.pdb
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Unity.Mvc3.dll
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoServer\AutoServer\obj\Debug\AutoServer.csprojResolveAssemblyReference.cache
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\AutoServer.exe.config
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\AutoServer.exe
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\AutoServer.pdb
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Unity.Mvc3.dll
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\obj\Debug\AutoServer.csprojResolveAssemblyReference.cache
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\obj\Debug\AutoServer.exe
+D:\Users\ррр\Documents\Visual Studio 2012\Projects\AutoServer\AutoServer\obj\Debug\AutoServer.pdb
+D:\Auto\AutoServer\AutoServer\bin\Debug\AutoServer.exe.config
+D:\Auto\AutoServer\AutoServer\bin\Debug\AutoServer.exe
+D:\Auto\AutoServer\AutoServer\bin\Debug\AutoServer.pdb
+D:\Auto\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Auto\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Auto\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Auto\AutoServer\AutoServer\bin\Debug\Unity.Mvc3.dll
+D:\Auto\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Auto\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Auto\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Auto\AutoServer\AutoServer\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Auto\AutoServer\AutoServer\obj\Debug\AutoServer.csprojResolveAssemblyReference.cache
+D:\Auto\AutoServer\AutoServer\obj\Debug\AutoServer.exe
+D:\Auto\AutoServer\AutoServer\obj\Debug\AutoServer.pdb

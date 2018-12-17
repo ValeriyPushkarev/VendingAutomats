@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title — приложение ASP.NET MVC</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/jqueryui")
+    @Scripts.Render("~/bundles/clockpicker")
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+
+            jQuery(function () {
+                $("#tabs").tabs();
+            });
+
+            jQuery('.clockpicker').clockpicker({
+                placement: 'bottom',
+                align: 'left',
+                donetext: 'Done'
+            });
+
+            jQuery('.datepicker').datepicker(
+                    { dateFormat: "dd.mm.yy" },
+
+                     $.datepicker.regional['ru'] = {
+                         closeText: 'Закрыть',
+                         prevText: 'Пред',
+                         nextText: 'След',
+                         currentText: 'Сегодня',
+                         monthNames: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь',
+                         'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь'],
+                         monthNamesShort: ['Янв', 'Фев', 'Мар', 'Апр', 'Май', 'Июн',
+                         'Июл', 'Авг', 'Сен', 'Окт', 'Ноя', 'Дек'],
+                         dayNames: ['воскресенье', 'понедельник', 'вторник', 'среда', 'четверг', 'пятница', 'суббота'],
+                         dayNamesShort: ['вск', 'пнд', 'втр', 'срд', 'чтв', 'птн', 'сбт'],
+                         dayNamesMin: ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
+                         weekHeader: 'Не',
+                         dateFormat: 'dd.mm.yy',
+                         firstDay: 1,
+                         isRTL: false,
+                         showMonthAfterYear: false,
+                         yearSuffix: ''
+                     },
+                    $.datepicker.setDefaults($.datepicker.regional['ru'])
+                );
+        });
+    </script>
+
+    @RenderSection("scripts", required: false)
+
+    <header>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p class="site-title">@Html.ActionLink("ваша эмблема здесь", "Index", "Home")</p>
+            </div>
+            <div class="float-right">
+                <section id="login">
+                    @Html.Partial("_LoginPartial")
+                </section>
+                <nav>
+                    <ul id="menu">
+                        <li>@Html.ActionLink("Домашняя страница", "Index", "Home")</li>
+                        <li>@Html.ActionLink("О программе", "About", "Home")</li>
+                        <li>@Html.ActionLink("Контакт", "Contact", "Home")</li>
+                        <li>@Html.ActionLink("Tect", "Level", "Modules")</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="body">
+        @RenderSection("featured", required: false)
+        <section class="content-wrapper main-content clear-fix">
+            @RenderBody()
+        </section>
+    </div>
+    <footer>
+        <div class="content-wrapper">
+            <div class="float-left">
+                <p>&copy; @DateTime.Now.Year — приложение ASP.NET MVC</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

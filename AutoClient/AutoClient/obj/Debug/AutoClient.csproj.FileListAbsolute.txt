@@ -1,0 +1,10 @@
+c:\users\ррр\documents\visual studio 2012\Projects\AutoClient\AutoClient\bin\Debug\AutoClient.exe.config
+c:\users\ррр\documents\visual studio 2012\Projects\AutoClient\AutoClient\bin\Debug\AutoClient.exe
+c:\users\ррр\documents\visual studio 2012\Projects\AutoClient\AutoClient\bin\Debug\AutoClient.pdb
+c:\users\ррр\documents\visual studio 2012\Projects\AutoClient\AutoClient\obj\Debug\AutoClient.exe
+c:\users\ррр\documents\visual studio 2012\Projects\AutoClient\AutoClient\obj\Debug\AutoClient.pdb
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoClient\AutoClient\obj\Debug\AutoClient.csprojResolveAssemblyReference.cache
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoClient\AutoClient\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoClient\AutoClient\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoClient\AutoClient\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\ррр\documents\visual studio 2012\Projects\AutoClient\AutoClient\bin\Debug\Microsoft.Practices.Unity.Configuration.xml

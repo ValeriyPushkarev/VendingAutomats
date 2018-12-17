@@ -1,0 +1,58 @@
+﻿@{
+    Layout = "";
+}
+<div class="tabsvisible" style="width:300px;height:300px">
+    <ul>
+        <li><a href="#modulesTab@(ViewBag.automate.Name)">Просмотр</a></li>
+        <li><a href="#settingsTab@(ViewBag.automate.Name)">Настройки</a></li>
+    </ul>
+    
+    <div id="modulesTab@(ViewBag.automate.Name)" >
+        <div>
+            Последний пинг <br />
+            @foreach (var module in ViewBag.automate.Modules)
+            {
+                if (module is WebApplication1.Services.Services.Modules.PingModule)
+                {
+                    var mod = module as WebApplication1.Services.Services.Modules.PingModule;
+                    @Html.Raw(mod.LastPing());
+
+                    break;
+                }
+            }
+            <br />
+        </div>
+
+        <div style="margin-top:20px">Датчики уровней</div>
+        @foreach (var module in ViewBag.automate.Modules)
+        {
+            if (module is WebApplication1.Services.Services.Modules.LevelModule)
+            {
+                System.Web.Mvc.Html.ChildActionExtensions.RenderAction(Html, "Level", "Modules", module);
+            }
+        }
+
+    </div>
+
+    <div id="settingsTab@(ViewBag.automate.Name)">
+        <div>
+            <div style="width:200px">
+                Имя
+            </div>
+            <input style="width:200px" automateName="@(ViewBag.automate.Name)" id="Name" type="text" value="@ViewBag.automate.Name" disabled="disabled" />
+        </div>
+        <div>
+            <div style="width:200px">
+                Адрес
+            </div>
+            <input style="width:200px" automateName="@(ViewBag.automate.Name)" id="Address" type="text" value="@ViewBag.automate.Address" />
+            <div>
+                <div style="width:200px">
+                    Краткое описание
+                </div>
+                <input style="width:200px" automateName="@(ViewBag.automate.Name)" id="Desc" type="text" value="@ViewBag.automate.Desc" />
+            </div>
+            <input id="Button1" automateName="@(ViewBag.automate.Name)" type="button" value="Сохранить" onclick="updateAutomate(this)" />
+        </div>
+    </div>
+</div>

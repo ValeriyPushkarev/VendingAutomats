@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="VerticalMenu.ascx.cs" Inherits="WebApplication1.Elements.WebUserControl1" %>
+<asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
